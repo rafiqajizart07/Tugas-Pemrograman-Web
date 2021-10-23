@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <style>
+        .back{
+            background-color: rgb(58, 71, 255);
+        }
+        .atsbwh{ 
+            background-color: rgb(255, 136, 0);
+        }
+    </style>
+</head>
+<body style="margin: 0;" class="back">
+    <nav style="border: solid 2px; padding-top: 10px; padding-bottom: 10px;" class="atsbwh" >
+
+        <!-- Container Display flex Navbar -->
+        <div style="display: flex;">
+
+            <!-- Left Navbar -->
+            <h1 style="margin-left: 15px;">AJIZART SHOP</h1>
+            <div style="margin-top: 10px; justify-content: left;">
+                <ul style="display: flex; list-style: none; gap: 10px; ;">
+                    <li>
+                        <a href="#" style="text-decoration: none">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none">CURRENTS EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Left Navbar -->
+
+            <!-- Right Navbar -->
+            <div style=" margin-left: 600px;">
+                <ul style="display: flex; list-style: none; gap: 10px;">
+                    <li>
+                        <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);"><img width="32px" src="https://cdn.iconscout.com/icon/free/png-256/search-1767866-1502119.png"></a>
+                    </li>`
+                    <li>
+                        <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/cart-1438627-1214043.png" width="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: rgb(250, 250, 250); font-size: 25px;">Cart(1)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+          <h1>Your Cart</h1>
+          <table>
+            <thead>
+              <tr>
+                <td class="col-head">Item</td>
+                <td class="col-head">Price</td>
+                <td class="col-head">Quantity</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="img-tshirt">
+                  <img width="200" src="https://cf.shopee.co.id/file/961a6f878033fa9ed7dd3ec001ae2989" alt="">
+                  <p>Tshirt <br> Size Small</p>
+                </td>
+                <td>
+                  <b>$20.00</b>
+                </td>
+                <td>
+                  <select name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td class="col-head" colspan="3" align="right">Subtotal: <b>$20.00</b></td>
+              </tr>
+            </tfoot>
+          </table>
+        </main>
+    
+        <aside>
+          <h2>Summary ( 1 item )</h2>
+          <table>
+            <tr>
+              <td>Subtotal</td>
+              <td align="right">$20.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td align="right">-</td>
+            </tr>
+            <tr>
+              <td>Est. Taxes</td>
+              <td align="right">-</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td align="right">$20.00</td>
+            </tr>
+          </table>
+          <a class="btn-checkout" href="checkout.html">Checkout</a>
+        </aside>
+      </div>
+</body>
+</html>

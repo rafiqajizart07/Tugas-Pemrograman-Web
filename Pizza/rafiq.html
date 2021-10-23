@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafiq Tugas 3</title>
+
+    <style>
+        .gambar{
+            background-image: url(https://lh3.googleusercontent.com/t8pgbcR-04dCxfZ4hDjyMV86yy6wWXC6Ts7Oewlg1ZLm5rNumk5SHGpGoZsy_YjadSDM=s85);
+            background-size: 50%;
+          }
+        .background{
+            margin: 6% ;
+            margin-left: 10%;
+            margin-right: 10%;
+            background: rgba(63, 42, 255, 0.726);
+            padding: 30px;
+            border-style: solid;
+            
+        }
+    </style>
+
+  </head>
+
+
+  <body class="gambar" >
+
+    <div class="background">
+
+     <div>
+        <form action="sudah.html">
+            <hr>
+           <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+           <hr>
+           <p>Our 12" wood-fired pizzas are available for delivery. Build your costum pizza and we'll deliver it within an hour.</p>
+           
+        <fieldset style="border: 0;">
+
+             <legend><h2>Your Information</h2></legend>
+     
+    <div style="margin-left: 5%;">   
+                <div>
+                <label for="name">Name: </label>
+                <br>
+                <input id="name" type="text" placeholder="Your Full Name" required>
+                </div>
+
+            <br>
+
+          <div>
+          <label for="address">Address: </label>
+          <br>
+          <input id="address" type="text"  placeholder="Your Address" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="telephone-number">Telephone Number: </label>
+          <br>
+          <input id="telephone-number" type="number" placeholder="+62" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="email">Email: </label>
+          <br>
+          <input id="email" type="email" placeholder="example@mail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="delivery-instruction">Delivery Instruction</label>
+          <br>
+          <textarea required  id="delivery-instruction" cols="50" rows="5" placeholder="No More than 400 Characters Long" maxlength="400" required></textarea>
+        </div>
+      </fieldset>
+    </div>
+     <br>
+    
+           <fieldset style="border: 0;">
+             <legend style="font-size: 20px;" > <b>Design Your Dream Pizza: </b> <br> Pizza Specs</legend>
+     
+             <div title="container-crust" style="margin-left: 5%;">
+               <h4 style="font-weight: normal;">Crust (Choose One): </h4>
+               <div>
+                 <input id="crust1" type="radio" name="crust" required>
+                 <label for="crust1">Classic White</label>
+               </div>
+     
+               <div>
+                 <input id="crust2" type="radio" name="crust" required>
+                 <label for="crust2">Multigrain</label>
+               </div>
+     
+               <div>
+                 <input id="crust3" type="radio" name="crust" required>
+                 <label for="crust3">Cheese-stuffed crust</label>
+               </div>
+     
+               <div>
+                 <input id="crust4" type="radio" name="crust" required>
+                 <label for="crust4">Gluten-free</label>
+               </div>
+             </div> <!-- container-crust -->
+     
+             <div title="container-topping">
+               <h4 style="font-weight: normal;">Toppings (Choose as many as you want):</h4>
+               <div>
+                 <input type="checkbox" checked>
+                 <label for=" ch1 ">Red Sauce</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="ch2">White Sauce</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="ch3">Whiteaaa Sauce</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="ch4">Mozzarella Cheese</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="ch5">Mushrooom</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="ch6" >Peppers</label>
+               </div>
+     
+               <div>
+                 <input type="checkbox">
+                 <label for="">Anchovies</label>
+               </div>
+             </div> <!-- container-topping -->
+           </fieldset>
+     
+           <div>
+             <label for="how-many-pizzas">How Many Pizzas: </label>
+             <select id="how-many-pizzas">
+               <option>1</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+             </select>
+           </div>
+     
+           <br>
+     
+           <input type="submit" value="Bring me a pizza!">
+           <input type="reset" value="reset">
+     
+           <br>
+         </form>
+    </div>
+     </div>
+  </body>
+</html> 
